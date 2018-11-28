@@ -1,5 +1,7 @@
+cook_book = {}
+
+
 with open('cook_book.txt', encoding='UTF8') as f:
-    cook_book = {}
     for line in f:
         dish = line.strip()
         quantity_ingredients = f.readline().strip()
